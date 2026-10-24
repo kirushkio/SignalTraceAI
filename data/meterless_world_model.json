@@ -1,0 +1,66 @@
+{
+  "SKU-409": {
+    "status": "OUT_OF_STOCK",
+    "attributes": {
+      "availableUnits": 0,
+      "depletionDate": "2026-10-16"
+    },
+    "lastObserved": "2026-10-24T06:13:02.339Z"
+  },
+  "PO-88321": {
+    "status": "CLEARED_PORT",
+    "attributes": {
+      "customsRelease": "2026-10-19",
+      "carrierMode": "ocean_freight"
+    },
+    "lastObserved": "2026-10-24T06:13:02.340Z"
+  },
+  "inv-1792822477399": {
+    "status": "pending_approval",
+    "attributes": {
+      "title": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "actionsCount": 2
+    },
+    "lastObserved": "2026-10-24T06:14:37.498Z"
+  },
+  "inv-1792822477555": {
+    "status": "pending_approval",
+    "attributes": {
+      "title": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "actionsCount": 2
+    },
+    "lastObserved": "2026-10-24T06:14:37.643Z"
+  },
+  "inv-1792822477832": {
+    "status": "cancelled",
+    "attributes": {
+      "title": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "actionsCount": 2
+    },
+    "lastObserved": "2026-10-24T06:14:38.000Z"
+  },
+  "inv-1792822478583": {
+    "status": "pending_approval",
+    "attributes": {
+      "title": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "actionsCount": 2
+    },
+    "lastObserved": "2026-10-24T06:14:38.681Z"
+  },
+  "inv-1792822918943": {
+    "status": "pending_approval",
+    "attributes": {
+      "title": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "actionsCount": 2
+    },
+    "lastObserved": "2026-10-24T06:21:59.089Z"
+  },
+  "inv-1792823341771": {
+    "status": "cancelled",
+    "attributes": {
+      "title": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "actionsCount": 2
+    },
+    "lastObserved": "2026-10-24T06:29:30.062Z"
+  }
+}

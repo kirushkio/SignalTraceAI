@@ -1,0 +1,318 @@
+{
+  "nodes": [
+    {
+      "id": "hmem_sku_409",
+      "entityType": "sku",
+      "label": "SKU-409 Apex Pro ANC Headphones",
+      "properties": {
+        "price": 299,
+        "category": "Audio",
+        "burnRate": 120
+      },
+      "trustScore": 0.98,
+      "provenanceUri": "zetaris://sales_db/skus/409",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:13:02.274Z"
+    },
+    {
+      "id": "hmem_wh_west",
+      "entityType": "warehouse",
+      "label": "US-WEST-DC1 Ontario CA",
+      "properties": {
+        "bufferDays": 3,
+        "capacity": 50000
+      },
+      "trustScore": 0.95,
+      "provenanceUri": "zetaris://wms_db/warehouses/us_west",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:13:02.326Z"
+    },
+    {
+      "id": "hmem_po_88321",
+      "entityType": "supplier",
+      "label": "PO-88321 Shenzhen Acoustics Inbound",
+      "properties": {
+        "delayDays": 9,
+        "port": "Port of Long Beach",
+        "status": "cleared_crossdock"
+      },
+      "trustScore": 0.99,
+      "provenanceUri": "zetaris://edi_gateway/pos/88321",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:13:02.327Z"
+    },
+    {
+      "id": "test_node_sku_99",
+      "entityType": "sku",
+      "label": "SKU-99 Test ANC Pro",
+      "properties": {
+        "burnRate": 85,
+        "reorderPoint": 200
+      },
+      "trustScore": 0.97,
+      "provenanceUri": "zetaris://wms_db/skus/99",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:14:35.847Z"
+    },
+    {
+      "id": "hmem_inv-1792822477399",
+      "entityType": "incident",
+      "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "properties": {
+        "severity": "critical",
+        "status": "pending_approval",
+        "businessArea": "Consumer Electronics / Audio Hardware",
+        "timeWindow": "October 14 - October 21, 2026 (Week 42)"
+      },
+      "trustScore": 0.96,
+      "provenanceUri": "meterless://workflow/investigations/inv-1792822477399",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:14:37.494Z"
+    },
+    {
+      "id": "hmem_inv-1792822477555",
+      "entityType": "incident",
+      "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "properties": {
+        "severity": "critical",
+        "status": "pending_approval",
+        "businessArea": "Consumer Electronics / Audio Hardware",
+        "timeWindow": "October 14 - October 21, 2026 (Week 42)"
+      },
+      "trustScore": 0.96,
+      "provenanceUri": "meterless://workflow/investigations/inv-1792822477555",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:14:37.642Z"
+    },
+    {
+      "id": "hmem_inv-1792822477832",
+      "entityType": "incident",
+      "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "properties": {
+        "severity": "critical",
+        "status": "cancelled",
+        "businessArea": "Consumer Electronics / Audio Hardware",
+        "timeWindow": "October 14 - October 21, 2026 (Week 42)"
+      },
+      "trustScore": 0.96,
+      "provenanceUri": "meterless://workflow/investigations/inv-1792822477832",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:14:37.999Z"
+    },
+    {
+      "id": "hmem_inv-1792822478583",
+      "entityType": "incident",
+      "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "properties": {
+        "severity": "critical",
+        "status": "pending_approval",
+        "businessArea": "Consumer Electronics / Audio Hardware",
+        "timeWindow": "October 14 - October 21, 2026 (Week 42)"
+      },
+      "trustScore": 0.96,
+      "provenanceUri": "meterless://workflow/investigations/inv-1792822478583",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:14:38.678Z"
+    },
+    {
+      "id": "hmem_inv-1792822918943",
+      "entityType": "incident",
+      "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "properties": {
+        "severity": "critical",
+        "status": "pending_approval",
+        "businessArea": "Consumer Electronics / Audio Hardware",
+        "timeWindow": "October 14 - October 21, 2026 (Week 42)"
+      },
+      "trustScore": 0.96,
+      "provenanceUri": "meterless://workflow/investigations/inv-1792822918943",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:21:59.086Z"
+    },
+    {
+      "id": "hmem_inv-1792823341771",
+      "entityType": "incident",
+      "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+      "properties": {
+        "severity": "critical",
+        "status": "cancelled",
+        "businessArea": "Consumer Electronics / Audio Hardware",
+        "timeWindow": "October 14 - October 21, 2026 (Week 42)"
+      },
+      "trustScore": 0.96,
+      "provenanceUri": "meterless://workflow/investigations/inv-1792823341771",
+      "accessCount": 1,
+      "lastUpdated": "2026-10-24T06:29:30.060Z"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_hmem_sku_409_hmem_wh_west_fulfills",
+      "fromNodeId": "hmem_sku_409",
+      "toNodeId": "hmem_wh_west",
+      "relationType": "fulfills",
+      "weight": 0.8
+    },
+    {
+      "id": "edge_hmem_po_88321_hmem_sku_409_delayed_by",
+      "fromNodeId": "hmem_po_88321",
+      "toNodeId": "hmem_sku_409",
+      "relationType": "delayed_by",
+      "weight": 0.95
+    },
+    {
+      "id": "edge_test_node_sku_99_wh_central_fulfills",
+      "fromNodeId": "test_node_sku_99",
+      "toNodeId": "wh_central",
+      "relationType": "fulfills",
+      "weight": 0.9
+    }
+  ],
+  "ledger": [
+    {
+      "entryId": "ledg_1792822382274_w0b2wo",
+      "previousHash": "GENESIS_METERLESS_HASH",
+      "timestamp": "2026-10-24T06:13:02.274Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_sku_409",
+        "label": "SKU-409 Apex Pro ANC Headphones",
+        "trustScore": 0.98
+      },
+      "signatureHash": "7058a2b0b3770a962c777d4ed9c3816f5ffd4cc288fc7375ea77e4c640306783"
+    },
+    {
+      "entryId": "ledg_1792822382326_pp5gzn",
+      "previousHash": "7058a2b0b3770a962c777d4ed9c3816f5ffd4cc288fc7375ea77e4c640306783",
+      "timestamp": "2026-10-24T06:13:02.326Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_wh_west",
+        "label": "US-WEST-DC1 Ontario CA",
+        "trustScore": 0.95
+      },
+      "signatureHash": "0cb7ae7874f91b2b3cb290e8c445e9ca618b12fe4ef9d5dd1dbf0ce2a9fb40e4"
+    },
+    {
+      "entryId": "ledg_1792822382327_ndofgi",
+      "previousHash": "0cb7ae7874f91b2b3cb290e8c445e9ca618b12fe4ef9d5dd1dbf0ce2a9fb40e4",
+      "timestamp": "2026-10-24T06:13:02.327Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_po_88321",
+        "label": "PO-88321 Shenzhen Acoustics Inbound",
+        "trustScore": 0.99
+      },
+      "signatureHash": "698777bf4bb1bdc7c0355102420488248f45cdcb3552545b466bea8a2823f59e"
+    },
+    {
+      "entryId": "ledg_1792822475849_11xrnl",
+      "previousHash": "698777bf4bb1bdc7c0355102420488248f45cdcb3552545b466bea8a2823f59e",
+      "timestamp": "2026-10-24T06:14:35.849Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "test_node_sku_99",
+        "label": "SKU-99 Test ANC Pro",
+        "trustScore": 0.97
+      },
+      "signatureHash": "705e23f8f6a023d4b8f43f0a650f6469821ac3c9ba856777a2d8df4ee6013125"
+    },
+    {
+      "entryId": "ledg_1792822477496_efzy1e",
+      "previousHash": "705e23f8f6a023d4b8f43f0a650f6469821ac3c9ba856777a2d8df4ee6013125",
+      "timestamp": "2026-10-24T06:14:37.496Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792822477399",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "1e130b3d902d47945f7980c9cd93eea020bbe77a2ffa81a8841042447409faa4"
+    },
+    {
+      "entryId": "ledg_1792822477642_ga8fg8",
+      "previousHash": "1e130b3d902d47945f7980c9cd93eea020bbe77a2ffa81a8841042447409faa4",
+      "timestamp": "2026-10-24T06:14:37.642Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792822477555",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "d8bf646bb9504b5a164bd5df18322dd68b1e0d201a3393637b135cfe03c58524"
+    },
+    {
+      "entryId": "ledg_1792822477939_41y93h",
+      "previousHash": "d8bf646bb9504b5a164bd5df18322dd68b1e0d201a3393637b135cfe03c58524",
+      "timestamp": "2026-10-24T06:14:37.939Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792822477832",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "b33ebd9ebc8ffd7d81825e7ac0e16a2b4a0e7524585a284f0df256e3015b6a98"
+    },
+    {
+      "entryId": "ledg_1792822477999_i27414",
+      "previousHash": "b33ebd9ebc8ffd7d81825e7ac0e16a2b4a0e7524585a284f0df256e3015b6a98",
+      "timestamp": "2026-10-24T06:14:37.999Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792822477832",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "b769e08abb7d912992e296a37c29a1350a3010abb923bfe4f9d1e87e64833868"
+    },
+    {
+      "entryId": "ledg_1792822478679_ufbq0d",
+      "previousHash": "b769e08abb7d912992e296a37c29a1350a3010abb923bfe4f9d1e87e64833868",
+      "timestamp": "2026-10-24T06:14:38.680Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792822478583",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "18ddc38bb88afa7f1f470f0706d549739efe4128d8947bbc04725db3d501cf86"
+    },
+    {
+      "entryId": "ledg_1792822919087_qkwvl9",
+      "previousHash": "18ddc38bb88afa7f1f470f0706d549739efe4128d8947bbc04725db3d501cf86",
+      "timestamp": "2026-10-24T06:21:59.087Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792822918943",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "13913089680c3cabb9ea7658628e2d8d32521822e71b223974230a460bad395a"
+    },
+    {
+      "entryId": "ledg_1792823341876_1zd69i5",
+      "previousHash": "13913089680c3cabb9ea7658628e2d8d32521822e71b223974230a460bad395a",
+      "timestamp": "2026-10-24T06:29:01.876Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792823341771",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "6385df006ffe7c8cd50401580f1cc913d2d7110b053b83852ef3c42bb2752f18"
+    },
+    {
+      "entryId": "ledg_1792823370061_o6055u",
+      "previousHash": "6385df006ffe7c8cd50401580f1cc913d2d7110b053b83852ef3c42bb2752f18",
+      "timestamp": "2026-10-24T06:29:30.061Z",
+      "operation": "STORE_FINDING",
+      "payload": {
+        "nodeId": "hmem_inv-1792823341771",
+        "label": "Investigate Sales Decline in Consumer Electronics / Audio Hardware (October 14 - October 21, 2026 (Week 42))",
+        "trustScore": 0.96
+      },
+      "signatureHash": "eac3e4e003f39df6d605a294757e4185f63cdc81d1c6079ba3512fdb7c5d365c"
+    }
+  ],
+  "lastSnapshot": "2026-10-24T06:29:30.061Z"
+}
